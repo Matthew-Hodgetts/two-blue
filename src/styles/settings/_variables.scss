@@ -1,0 +1,57 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   #fff;
+$body-color:                #000;
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+
+$theme-light-blue: #3a98be;
+$theme-dark-blue: #103241;
+$theme-black: #1a1a1a;
+
+.bg-light-blue {
+    background-color: $theme-light-blue;
+}
+.bg-dark-blue {
+    background-color: $theme-dark-blue;
+}
+.bg-grey {
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+}

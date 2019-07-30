@@ -1,0 +1,51 @@
+/*!
+Theme Name: Two Blue
+Theme URI: http://underscores.me/
+Author: Matthew Hodgetts
+Author URI: https://www.linkedin.com/in/matthew-hodgetts-33369016b/
+Description: Two Blue\'s Custom Theme
+Version: 1.0.0
+Text Domain: two-blue
+*/
+
+
+// General Settings
+@import "./settings/settings";
+@import "./vendor/vendor";
+@import "./shared/shared";
+
+@import "./home/home";
+@import "./blog/blog";
+@import "./archive/archive";
+@import "./wwd/wwd";
+@import "./clients/clients";
+
+
+.our__people-img {
+  height: auto;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  @include media-breakpoint-up(md) {
+
+    margin-left: 0;
+  }
+  @media only screen and (min-height: 800px) {
+    max-width: 180px;
+  }
+}
+
+.our__people {
+  .owl-nav {
+    position: absolute;
+    top: -10px;
+    right: 0;
+  }
+  .owl-nav button span {
+    font-size: 50px;
+    color: $theme-dark-blue;
+    @include media-breakpoint-up(md) {
+      font-size: 70px;
+    }
+  }
+}
