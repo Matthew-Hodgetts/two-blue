@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<h1 class="slide__heading text-white mt-5 mb-5">
+				<h1 class="slide__heading text-white my-3 my-lg-5">
 					RETHINKING COMMUNICATIONS
 				</h1>
 			</div>

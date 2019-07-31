@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h1 class="slide__heading text-white mb-5">OUR BLOG</h1>
+          <h1 class="slide__heading text-white  my-3 my-lg-5">OUR BLOG</h1>
         </div>
       </div>
       <div class="row">
