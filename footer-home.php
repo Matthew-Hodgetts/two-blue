@@ -13,12 +13,12 @@
         <li>
           <a href="Services" class="menu-item two">Services</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="Clients" class="menu-item three">Clients</a>
         </li>
         <li>
           <a href="OurTeam" class="menu-item four">Our Team</a>
-        </li>
+        </li> -->
         <li>
           <a href="Blog" class="menu-item five">Blog</a>
         </li>

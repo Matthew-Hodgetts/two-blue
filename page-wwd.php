@@ -9,7 +9,7 @@
 <div id="primary" class="content-area">
     <main id="main" class="site-main">
         <div id="fullpageOther">
-            <section class="section wwd__section--one bg-light-blue">
+            <!-- <section class="section wwd__section--one bg-light-blue">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -20,13 +20,13 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="section wwd__section--two">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-7">
-                            <h2 class="slide__main-text text-black">WHAT WE DO</h2>
+                            <h2 class="slide__main-text text-black">Services</h2>
                             <p class="slide__heading text-dark-blue my-3">Integrated public relations and digital
                                 marketing</p>
                             <p class="slide__sec-text text-dark-blue">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </section>
-            <?php get_template_part('template-parts/home/slide8'); ?>
+            <?php get_template_part('template-parts/home/slide6'); ?>
         </div>
     </main><!-- #main -->
 </div><!-- #primary -->

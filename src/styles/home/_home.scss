@@ -14,6 +14,7 @@
 .home__section {
   &--one {
     background-color: rgba(0, 0, 0, 0.7);
+    
   }
 
   &--eight {
@@ -187,6 +188,7 @@
 /* GENERAL TYPOGRAPHY FOR SLIDES */
 
 .slide__heading {
+  text-transform: uppercase;
   font-size: 1rem !important;
 
   @include media-breakpoint-up(md) {
@@ -222,6 +224,10 @@
 .slide__sub-text {
   letter-spacing: 1px;
   font-size: .9rem;
+  text-transform: uppercase;
+  @include media-breakpoint-up(md) {
+    font-size: 1.2rem;
+  }
 }
 
 

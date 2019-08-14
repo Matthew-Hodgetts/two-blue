@@ -10,12 +10,7 @@
   }
 }
 
-
 .footer__col {
-    img {
-      max-width: 200px !important;
-      height: auto !important;
-    }
   i {
     background: #1a1a1a;
     color: #fff;
@@ -35,6 +30,13 @@
       width: 70px;
       height: 70px;
       line-height: 45px;
+    }
+  }
+  &--1 {
+    p {
+      @include media-breakpoint-up(md) {
+        font-size: 1.25rem;
+      }
     }
   }
 }

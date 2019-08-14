@@ -16,8 +16,6 @@
 				get_template_part('template-parts/home/slide4');
 				get_template_part('template-parts/home/slide5');
 				get_template_part('template-parts/home/slide6');
-				get_template_part('template-parts/home/slide7');
-				get_template_part('template-parts/home/slide8');
       		?>
 		</div>
 	</main><!-- #main -->

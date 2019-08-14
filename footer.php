@@ -16,13 +16,13 @@
 	<footer id="footer" class="footer py-5">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4 footer__col py-2">
-          <?php dynamic_sidebar('footer-4'); ?>
+        <div class="col-md-4 footer__col footer__col--1 py-2">
+          <?php dynamic_sidebar('footer-1'); ?>
         </div>
-        <div class="col-md-4 footer__col py-2">
+        <div class="col-md-4 footer__col footer__col--2 py-2">
           <?php dynamic_sidebar('footer-2'); ?>
         </div>
-        <div class="col-md-4 footer__col py-2 text-md-right">
+        <div class="col-md-4 footer__col footer__col--3 py-2 text-md-right">
           <?php dynamic_sidebar('footer-3'); ?>
         </div>
       </div>

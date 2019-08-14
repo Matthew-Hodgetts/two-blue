@@ -1,18 +1,15 @@
-<section class="section home__section--six bg-grey">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="slide__heading  my-3 my-lg-5">OUR PEOPLE</h1>
+<section class="section home__section--eight bg-grey">
+  <div class="container">
+    <div class="row align-items-center">
+        <div class="col-md-4 py-1 footer__col footer__col--1 py-md-3">
+          <?php dynamic_sidebar('footer-1'); ?>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8">
-          <h2 class="text-black slide__main-text">
-          We are a busy and fast growing team of people, passionate about the environment, media, and digital landscape.
-          </h2>
-          <p class="slide__sub-text pt-md-5"><a href="/our-people" class="text-black">MEET THE TEAM</a></p>
+        <div class="col-md-4 py-1 py-md-3 footer__col footer__col--2">
+          <?php dynamic_sidebar('footer-2'); ?>
         </div>
-      </div>
+        <div class="col-md-4 py-1 py-md-3 footer__col footer__col--3 text-md-right">
+          <?php dynamic_sidebar('footer-3'); ?>
+        </div>
     </div>
-    <?php get_template_part('template-parts/misc/arrow-dark'); ?>
-  </section>
+  </div>
+</section>

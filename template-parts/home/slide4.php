@@ -1,42 +1,22 @@
-<section class="section home__section--four bg-grey">
+<section class="section home__section--six bg-grey">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <p class="slide__heading  my-3 my-lg-5">WHAT WE DO</p>
-            </div>
+      <div class="row">
+        <div class="col">
+          <h1 class="slide__heading  my-3 my-lg-5">OUR PEOPLE</h1>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-black slide__main-text">
-                    We help our clients manage their public profile and reach their target customers in an ever-changing
-                    and complex media space.
-                </h2>
-                <p class="slide__sub-text pt-md-5"><a href="/what-we-do" class="text-black">SEE OUR FULL DIGITAL
-                        MARKETING AND PR OFFERING</a></p>
-            </div>
-            <div class="d-none d-md-flex col-sm-12 col-md-4 mt-3 mt-md-0 offset-md-2 align-items-center">
-                <div class="clients__gallery">
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                    <a href="#" data-featherlight="http://twoblue4/wp-content/uploads/2019/07/1200x800.png"><img
-                            src="https://via.placeholder.com/150" alt="Fill this in" class="clients-gallery__img"></a>
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="text-black slide__main-text">
+          We are a busy and fast growing team of people, passionate about the environment, media, and digital landscape.
+          </h2>
         </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+        <p class="slide__sub-text pt-md-5"><a href="/contact" id="contactSlideLink" class="text-black">Get in contact with our team</a></p>
+        </div>
+      </div>
     </div>
     <?php get_template_part('template-parts/misc/arrow-dark'); ?>
-</section>
+  </section>

@@ -48,6 +48,24 @@
 
 /***/
 
+/* WEBPACK VAR INJECTION */
+
+// Our people slide
+
+// Link to contact slide from sub text
+
+// Video
+
+// const videoEl = document.getElementById("slide1Video");
+
+// videoEl.ontimeupdate = function (e) {
+
+//   console.log(e.target.currentTime);
+
+// }
+
+/* 1 */
+
 /*!
  * jQuery JavaScript Library v3.4.1
  * https://jquery.com/
@@ -3173,19 +3191,3 @@
 // (#7102#comment:10, https://github.com/jquery/jquery/pull/557)
 
 // and CommonJS for browser emulators (#13566)
-
-/* 1 */
-
-/* WEBPACK VAR INJECTION */
-
-/* harmony import */
-
-/* 2 */
-
-/**
- * Featherlight - ultra slim jQuery lightbox
- * Version 1.7.13 - http://noelboss.github.io/featherlight/
- *
- * Copyright 2018, Noël Raoul Bossart (http://www.noelboss.com)
- * MIT Licensed.
-**/
