@@ -1,4 +1,4 @@
-<section class="section home__section--seven bg-dark-blue">
+<section class="section home__section home__section--seven bg-dark-blue">
     <div class="container">
       <div class="row">
         <div class="col">

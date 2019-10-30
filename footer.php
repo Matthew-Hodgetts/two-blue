@@ -31,6 +31,34 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+  <script>
+    jQuery(document).ready(function ($) {
 
+      $('.tb-owl-nav.owl-nav-next button').click(function() {
+        owlWwd.trigger('next.owl.carousel');
+      })
+      $('.tb-owl-nav.owl-nav-prev button').click(function() {
+        owlWwd.trigger('prev.owl.carousel');
+      })
+      var owlWwd = $('.page-template-page-wwd .owl-carousel');
+      owlWwd.owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>

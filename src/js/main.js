@@ -1,3 +1,4 @@
+import { first } from "rxjs/operators";
 
 $("document").ready(() => {
 
@@ -132,11 +133,62 @@ $("document").ready(() => {
     fullpage_api.moveTo(6);
   })
 
-  // Video
+  
+  // let firstTextInView = false;
+  // let secondTextInView = false;
+  // let thirdTextInView = false;
+  // let fourthTextInView = false;
+
+  // const firstEl = $(".slide1__first-text");
+  // const secondEl = $(".slide1__second-text");
+  // const thirdEl = $(".slide1__third-text");
+  // const fourthEl = $(".slide1__fourth-text");
+
+
   // const videoEl = document.getElementById("slide1Video");
+
   // videoEl.ontimeupdate = function (e) {
-  //   console.log(e.target.currentTime);
+  //   if (e.target.currentTime > 3 && e.target.currentTime < 7 && !secondTextInView) {
+  //     console.log("***First***");
+  //     // Change first text to second
+  //     changeSlideText(firstEl, secondEl);
+  //     secondTextInView = true;
+  //     firstTextInView = false;
+  //   } else if (e.target.currentTime > 7 && e.target.currentTime < 12 && !thirdTextInView) {
+  //     console.log("***Second***");
+  //     // Change second text to third
+  //     changeSlideText(secondEl, thirdEl);
+  //     thirdTextInView = true;
+  //     secondTextInView = false;
+
+
+  //   } else if (e.target.currentTime > 12 && e.target.currentTime < 17 && !fourthTextInView) {
+  //     console.log("***Third***");
+  //     // Change third text to fourth
+  //     changeSlideText(thirdEl, fourthEl);
+  //     fourthTextInView = true;
+  //     thirdTextInView = false;
+
+  //   } else if (e.target.currentTime > 17 && e.target.currentTime < 24 && !firstTextInView) {
+  //     console.log("***Fourth***");
+  //     // Change  fourth to first
+  //     changeSlideText(fourthEl, firstEl);
+  //     firstTextInView = true;
+  //     fourthTextInView = false;
+
+  //   }
   // }
+
+
+  
+
+  // const changeSlideText = function (element, newElement) {
+  //   $(element).fadeOut("slow", function () {
+  //     $(newElement).fadeIn("slow");
+  //   });
+  // }
+
+  
 
 
 });

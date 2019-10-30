@@ -1,10 +1,161 @@
 .slide__wwd-services-text {
-    font-size: 1rem;
-    @include media-breakpoint-up(md) {
-      font-size: 1.5rem;
-    }
-    @include media-breakpoint-up(lg) {
-      font-size: 1.5rem;
-    }
-  
+  font-size: 1rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.5rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5rem;
+  }
+
 }
+
+
+.page-template-page-wwd {
+  .owl-carousel:last-of-type {
+    margin-top: 30px;
+  }
+
+  .owl-carousel.regular {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .owl-carousel.mobile {
+      display: none;
+    }
+  }
+
+  .owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .owl-item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto !important;
+  }
+
+  .owl-nav {
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-50%);
+    z-index: -5;
+
+    button {
+      position: relative;
+      span {
+        color: #222;
+
+      }
+    }
+  }
+
+}
+
+.services-item {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+
+  @include media-breakpoint-up(sm) {
+    min-height: 250px;
+  }
+  @include media-breakpoint-up(md) {
+    min-height: 200px;
+  }
+
+  &:hover {
+    .services-item__content {
+      opacity: 1;
+    }
+
+    .services-item__title {
+      opacity: 0;
+    }
+  }
+
+  .services-item__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #fff;
+    text-align: center;
+    width: 95%;
+
+  }
+
+  .services-item__content {
+    opacity: 0;
+    color: #fff;
+    padding: 30px;
+    transition: opacity .4s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.tb-owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border: none !important;
+    outline: none;
+  }
+  
+  span {
+    color: #fff;
+    font-size: 90px;
+  }
+  &.owl-nav-prev {
+    left: 3%;
+  }
+  &.owl-nav-next {
+    right: 3%;
+  }
+  @include media-breakpoint-up(sm) {
+    &.owl-nav-prev {
+      left: -5%;
+    }
+    &.owl-nav-next {
+      right: -5%;
+    }
+    span {
+      color: #222;
+    }
+  }
+
+}
+

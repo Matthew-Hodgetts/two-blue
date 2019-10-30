@@ -1,4 +1,4 @@
-<section class="section home__section--six bg-grey">
+<section class="section home__section home__section--six bg-grey">
     <div class="container">
       <div class="row">
         <div class="col">

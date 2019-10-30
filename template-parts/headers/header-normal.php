@@ -1,4 +1,4 @@
-<header id="header" class="header__normal py-1 py-md-3 py-xl-4">
+<header id="header" class="header__normal py-1 py-md-3">
   <nav>
     <div class="container-fluid">
       <div class="row align-items-center">

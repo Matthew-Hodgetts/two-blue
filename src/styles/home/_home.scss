@@ -12,9 +12,33 @@
 
 
 .home__section {
+
+
+  .slide__heading,
+  .slide__main-text, 
+  .slide__sub-text {
+    opacity: 0;
+    transition: opacity 2s ease, transform .5s ease;
+    transform: translateX(-3000px);
+  }
+
+  &.fp-completely {
+    .slide__heading,
+    .slide__main-text,
+    .slide__sub-text {
+      opacity: 1;
+      transform: translateX(0);
+
+    }
+  }
+
   &--one {
     background-color: rgba(0, 0, 0, 0.7);
-    
+    .slide1__second-text,
+    .slide1__third-text,
+    .slide1__fourth-text {
+      display: none;
+    }
   }
 
   &--eight {
@@ -79,6 +103,31 @@
     transform: translateX(-50%) translateY(20px);
   }
 }
+
+
+// Slide three - client logos
+
+.clients__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 10px;
+  align-items: center;
+  justify-items: center;
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px 40px;
+  }
+}
+
+.clients__logo {
+  max-height: 50px;
+  width: auto;
+  display: block;
+  @include media-breakpoint-up(sm) {
+    max-height: 100px;
+  }
+}
+
 
 // BLOG SECTION 
 
@@ -217,7 +266,7 @@
   }
 
   @include media-breakpoint-up(xl) {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 }
 
