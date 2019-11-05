@@ -102,7 +102,7 @@ export const images = () => {
 // Copy other assets
 export const copy = () => {
   return gulp.src(['src/assets/**/*', '!src/assets/{images,js,sass}', '!src/assets/{images,js,sass}/**/*'])
-  .pipe(gulp.dest('./assets/other/'))
+    .pipe(gulp.dest('./assets/other/'))
 }
 
 export const reload = (done) => {

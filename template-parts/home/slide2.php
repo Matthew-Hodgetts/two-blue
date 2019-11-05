@@ -2,12 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <p class="slide__heading  my-3 my-lg-5">Services</p>
+        <p class="slide__heading  my-3 my-lg-5 home-fade-in">Services</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-8">
-        <h2 class="text-black slide__main-text">
+        <h2 class="text-black slide__main-text home-fade-in">
           We help our clients manage their public profile and reach their target customers in an ever-changing
           and complex media space.
         </h2>
@@ -15,7 +15,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <p class="slide__sub-text text-center pt-md-5"><a href="/what-we-do" class="text-black">SEE OUR FULL DIGITAL
+        <p class="slide__sub-text text-center pt-md-5"><a href="/what-we-do" class="text-black  home-fade-in">SEE OUR FULL DIGITAL
             MARKETING AND PR OFFERING</a></p>
       </div>
     </div>

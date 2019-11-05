@@ -4,10 +4,10 @@
     <div class="row">
 
       <div class="col-md-8 slide1__first-text">
-        <h1 class="slide__heading text-white my-3 my-lg-5">
+        <h1 class="slide__heading text-white my-3 my-lg-5 home-fade-in">
           RETHINKING COMMUNICATIONS
         </h1>
-        <h2 class="text-white slide__main-text">
+        <h2 class="text-white slide__main-text home-fade-in">
           We develop brands and deliver targeted campaigns to connect with existing customers, reach new audiences and
           engage with key stakeholders.
         </h2>

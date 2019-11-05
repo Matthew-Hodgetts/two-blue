@@ -1,5 +1,6 @@
 .blog-post__featured-img {
   max-width: 100%;
+  height: auto;
 }
 
 .blog-post__cat-links {
@@ -15,6 +16,10 @@
   }
 }
 
+.single-post img {
+  height: auto;
+  max-width: 100%;
+}
 
 .blog-nav {
   background-color: $theme-light-blue;
@@ -43,4 +48,9 @@
 .blog__share-link {
   margin: 10px;
   font-size: 2rem;
+}
+
+.blog-post__cat-wrap {
+  display: flex;
+  flex-direction: column;
 }

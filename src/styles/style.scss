@@ -19,7 +19,29 @@ Text Domain: two-blue
 @import "./archive/archive";
 @import "./wwd/wwd";
 @import "./clients/clients";
+// paths
+$lg-path-fonts: 'assets/other/fonts';
+$lg-path-images: 'assets/img';
+@import "./../../node_modules/lightgallery.js/src/sass/lightgallery";
 
+#lightgallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  a:last-of-type img {
+    displaY: none;
+  }
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 1fr 1fr 1fr;
+    a:last-of-type img {
+      display: block;
+    }
+  }
+  
+}
 
 .our__people-img {
   height: auto;

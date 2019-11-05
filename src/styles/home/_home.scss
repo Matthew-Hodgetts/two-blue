@@ -13,24 +13,7 @@
 
 .home__section {
 
-
-  .slide__heading,
-  .slide__main-text, 
-  .slide__sub-text {
-    opacity: 0;
-    transition: opacity 2s ease, transform .5s ease;
-    transform: translateX(-3000px);
-  }
-
-  &.fp-completely {
-    .slide__heading,
-    .slide__main-text,
-    .slide__sub-text {
-      opacity: 1;
-      transform: translateX(0);
-
-    }
-  }
+  
 
   &--one {
     background-color: rgba(0, 0, 0, 0.7);
@@ -83,7 +66,7 @@
   width: 50px;
   content: "";
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 50000;
@@ -317,4 +300,20 @@ button.owl-prev {
 
 .owl-dots {
   display: none;
+}
+
+
+
+
+.home-fade-in {
+  opacity: 0;
+  transition: opacity .9s ease;
+
+}
+
+.fp-completely {
+  
+  .home-fade-in {
+    opacity: 1;
+  }
 }
